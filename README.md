@@ -10,5 +10,5 @@ Cara Instalasi
 3. Import database fpdwo.sql ke phpmyadmin masing-masing
 4. Copy file mondrian, lalu paste ke folder \xampp\tomcat\webapps\(PASTE DISINI)
 5. Jalankan lewat xampp
-6. Saat login, masukkan email : admin@gmail.com dan password : admin
+6. Saat login, masukkan email : admin@gmail.com dan password : admin, atau bisa dengan membuat akun baru
 7. Selesai
