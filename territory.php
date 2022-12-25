@@ -149,7 +149,7 @@
 
                 <div class="container-fluid">
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Territory</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Lokasi</h1>
                     </div>
 
                     <div class="row">
@@ -159,15 +159,15 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Jumlah Persebaran Territory
+                                                Jumlah Persebaran Lokasi
                                             </div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">
                                                 <?php                                           
-                                                $sql = "SELECT COUNT(TerritoryID) as territory from dimterritory";
+                                                $sql = "SELECT COUNT(LocationID) as location from dimlocation";
                                                 $query = mysqli_query($conn, $sql);
                                                 if (mysqli_num_rows($query) > 0){
                                                     while($row2=mysqli_fetch_array($query)){
-                                                        echo number_format($row2['territory'],0,".",",");
+                                                        echo number_format($row2['location'],0,".",",");
                                                     }
                                                 }      
                                                 ?>  
